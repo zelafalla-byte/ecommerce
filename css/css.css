@@ -14,7 +14,7 @@ body {
     overflow-x: hidden;
 }
 
-/* Navbar */
+
 .navbar {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), 
                 url('../images/header nav.jpg') center/cover no-repeat !important;
@@ -46,7 +46,7 @@ body {
     color: var(--gold-primary) !important;
 }
 
-/* Navbar Search Bar Style */
+
 .navbar form .form-control {
     border: 1px solid var(--gold-primary);
     border-radius: 20px;
@@ -58,7 +58,7 @@ body {
     box-shadow: 0 0 5px rgba(212, 175, 55, 0.5);
 }
 
-/* Hero Cover Section */
+
 .hero-cover {
     background: linear-gradient(rgba(171, 167, 167, 0.25), rgba(230, 229, 229, 0.25)), 
                 url('../images/collage.jpg') center/cover no-repeat;
@@ -97,7 +97,7 @@ body {
     border: 3px solid var(--gold-primary);
 }
 
-/* Service Cards & Smooth Hover Animation */
+
 .card-img-container {
     height: 230px;
     overflow: hidden;
@@ -136,7 +136,7 @@ body {
     transform: scale(0.98);
 }
 
-/* Custom Gold Buttons & Smooth Hover */
+
 .btn-gold {
     background-color: var(--gold-primary);
     color: #111;
@@ -201,7 +201,7 @@ body {
     background-color: #fdfbf7;
 }
 
-/* Full Width Footer */
+
 .footer-full {
     width: 100vw;
     position: relative;
@@ -211,4 +211,35 @@ body {
     margin-right: -50vw;
     box-sizing: border-box;
     border-top: 3px solid var(--gold-primary);
+}
+
+
+.footer-links a {
+    transition: color 0.3s ease, padding-left 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: var(--gold-primary) !important;
+    padding-left: 4px; 
+}
+.hover-white:hover {
+    color: #ffffff !important;
+}
+
+
+.rounded-circle:hover {
+    background-color: rgba(214, 175, 55, 0.15) !important; 
+    border-color: var(--gold-primary) !important;
+}
+
+.bi {
+    font-family: bootstrap-icons !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    vertical-align: -.125em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
